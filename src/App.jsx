@@ -6,6 +6,7 @@ import Hero from './Components/Hero.jsx'
 import Cocktails from './Components/Cocktails.jsx'
 import About from './Components/About.jsx'
 import Art from './Components/Art.jsx'
+import Menu from './Components/Menu.jsx'
 import React from 'react'
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <Cocktails />
         <About />
         <Art/>
-
+        <Menu/>
     </main>
   )
 }
