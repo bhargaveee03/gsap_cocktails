@@ -7,6 +7,7 @@ import Cocktails from './Components/Cocktails.jsx'
 import About from './Components/About.jsx'
 import Art from './Components/Art.jsx'
 import Menu from './Components/Menu.jsx'
+import Contact from './Components/Contact.jsx'
 import React from 'react'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <About />
         <Art/>
         <Menu/>
+        <Contact />
     </main>
   )
 }
