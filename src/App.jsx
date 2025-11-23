@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar.jsx'
 import Hero from './Components/Hero.jsx'
 import Cocktails from './Components/Cocktails.jsx'
 import About from './Components/About.jsx'
+import Art from './Components/Art.jsx'
 import React from 'react'
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
         <Hero />
         <Cocktails />
         <About />
-        
+        <Art/>
+
     </main>
   )
 }
